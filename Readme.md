@@ -4,12 +4,14 @@
 
 ```shell
 yarn add prettier@latest
+
+yarn add -D eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
 ```
 
-```js
+```json
 {
     "scripts": {
-            "format": "prettier --config .prettierrc --write 'src/**/*.js'",
+            "format": "prettier --config .prettierrc --write 'src/**/*.js'"
         }
 }
 ```
