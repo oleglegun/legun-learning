@@ -1,12 +1,9 @@
 # React Setup
 
-1. Import `idea/watchers.xml` in `Settings/Tools/File Watchers`
+1. Prettier
+Import `idea/watchers.xml` in `Settings/Tools/File Watchers`
 
-```shell
-yarn add prettier@latest
-
-yarn add -D eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
-```
+`yarn add -D prettier@latest`
 
 ```json
 {
@@ -15,5 +12,20 @@ yarn add -D eslint eslint-config-react-app eslint-plugin-flowtype eslint-plugin-
         }
 }
 ```
+
+2. ESLint
+
+```bash
+yarn add -D eslint \
+            eslint-config-react-app \
+            eslint-config-prettier \
+            eslint-plugin-flowtype \
+            eslint-plugin-react \
+            eslint-plugin-import \
+            eslint-plugin-jsx-a11y \
+            eslint-plugin-prettier
+```
+
+
 
 
