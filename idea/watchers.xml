@@ -12,7 +12,7 @@
       <array />
     </option>
     <option name="outputFromStdout" value="false" />
-    <option name="program" value="/node_modules/.bin/prettier" />
+    <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
     <option name="scopeName" value="Current File" />
     <option name="trackOnlyRoot" value="false" />
     <option name="workingDir" value="$ProjectFileDir$" />
@@ -31,7 +31,7 @@
       <array />
     </option>
     <option name="outputFromStdout" value="false" />
-    <option name="program" value="/node_modules/.bin/prettier" />
+    <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
     <option name="scopeName" value="Current File" />
     <option name="trackOnlyRoot" value="false" />
     <option name="workingDir" value="$ProjectFileDir$" />
